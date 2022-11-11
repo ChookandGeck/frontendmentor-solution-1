@@ -73,7 +73,7 @@ body {
 
 .card-name {
   font-family: "Fraunces";
-  font-size: 39px;
+  font-size: 37px;
   font-weight: bold;
   line-height: 95%;
   padding: 20px 40px 0 25px;
@@ -95,7 +95,7 @@ body {
 
 .card-price__new {
   font-family: "Fraunces";
-  font-size: 36px;
+  font-size: 32px;
   color: hsl(158, 36%, 37%);
 }
 
@@ -126,4 +126,22 @@ body {
 
 .btn-addtocart:hover {
   background-color: #3c8067f5;
+}
+
+.btn-addtocart:active {
+  position: relative;
+  top: 1px;
+}
+
+.fa-solid {
+  margin-right: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
