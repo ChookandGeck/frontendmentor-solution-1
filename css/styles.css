@@ -73,7 +73,7 @@ body {
 
 .card-name {
   font-family: "Fraunces";
-  font-size: 30px;
+  font-size: 38px;
   font-weight: bold;
   line-height: 95%;
   padding: 20px 40px 0 25px;
@@ -85,17 +85,17 @@ body {
   font-weight: 500;
   color: #6c7289;
   line-height: 150%;
-  padding: 25px 40px 10px 25px;
+  padding: 25px 40px 5px 25px;
 }
 
 .card-price {
   position: relative;
-  padding: 25px 40px 15px 25px;
+  padding: 25px 40px 5px 25px;
 }
 
 .card-price__new {
   font-family: "Fraunces";
-  font-size: 36px;
+  font-size: 38px;
   color: hsl(158, 36%, 37%);
 }
 
@@ -104,8 +104,8 @@ body {
   font-size: 14px;
   text-decoration: line-through;
   position: absolute;
-  padding-left: 30px;
-  margin-top: 8px;
+  padding-left: 20px;
+  margin-top: 15px;
   color: hsl(228, 12%, 48%);
 }
 
