@@ -22,15 +22,14 @@ body {
   width: 600px;
   max-height: 450px;
 }
-@media screen and (max-width: 650px) {
+
+@media only screen and (max-width: 650px) {
   .card-all {
     flex-direction: column;
     max-width: 375px;
     height: 50vh;
     font-size: 62.5%;
   }
-}
-@media only screen and (max-width: 650px) {
   .card-image {
     border-radius: 10px 10px 0 0;
   }
@@ -39,6 +38,9 @@ body {
   }
   .btn-addtocart {
     margin: 7% 15% 7% 15%;
+  }
+  .card-wrapper {
+    margin-bottom: 250px;
   }
 }
 
@@ -128,7 +130,6 @@ body {
   font-size: 14px;
   padding: 5% 20%;
   text-decoration: none;
-  /* margin: 7% 7% 7% 8%; */
   flex-grow: 2;
 }
 
