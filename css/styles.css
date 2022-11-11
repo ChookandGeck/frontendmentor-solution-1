@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 87.5%;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.card-all {
+  display: flex;
+  flex: 1;
+
+  width: 600px;
+  max-height: 450px;
+}
+@media screen and (max-width: 650px) {
+  .card-all {
+    flex-direction: column;
+    max-width: 375px;
+    height: 50vh;
+    font-size: 62.5%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .card-image {
+    border-radius: 10px 10px 0 0;
+  }
+  .card-right {
+    border-radius: 0 0 10px 10px;
+  }
+}
+@media only screen and (min-width: 651px) {
+  .card-image {
+    border-radius: 10px 0 0 10px;
+  }
+  .card-right {
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+.card-image {
+  max-width: 100%;
+}
+.card-left {
+  flex: 1;
+}
+.card-right {
+  background-color: hsl(0, 0%, 100%);
+
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.card-catalog {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #6c7289;
+  padding: 30px 40px 0 25px;
+}
+.card-name {
+  font-family: "Fraunces";
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 95%;
+  padding: 25px 40px 0 25px;
+}
+.card-text {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  color: #6c7289;
+  line-height: 150%;
+  padding: 25px 40px 0 25px;
+}
+
+.card-price {
+  position: relative;
+  padding: 25px 40px 5px 25px;
+}
+
+.card-price__new {
+  font-family: "Fraunces";
+  font-size: 28px;
+  color: hsl(158, 36%, 37%);
+}
+
+.card-price__old {
+  font-family: "Montserrat";
+  font-size: 14px;
+  text-decoration: line-through;
+  position: absolute;
+  padding-left: 30px;
+  margin-top: 8px;
+  color: hsl(228, 12%, 48%);
+}
+
+.btn-addtocart {
+  position: relative;
+  background-color: #3c8067;
+  border-radius: 9px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  padding: 5% 20%;
+  text-decoration: none;
+  margin: 7% 7% 7% 8%;
+}
+.btn-addtocart:hover {
+  background-color: #3c8067f5;
+}
+.btn-addtocart:active {
+  position: relative;
+  top: 1px;
+}
+.fa-solid {
+  margin-right: 10px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
